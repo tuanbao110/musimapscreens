@@ -1,4 +1,4 @@
-Lab 1
+A5 - Screens
 =====
 
-This lab introduces you to the serving of static content using node.js and Express. We'll also push and pull from GitHub, and publish to Heroku.
+Tyler Tran, Tuan Bao, Victor Phung, Nicholas Chung
