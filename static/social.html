@@ -4,14 +4,14 @@
 
     <!-- Side navigation -->
     <div class="sidenav">
-        <a href="search.html">Search</a>
-        <a href="index.html">Main Page</a>
-        <a href="library.html">My Library</a>
-        <a href="social.html">Social</a>
-        <a href="settings.html">Settings</a>
-        <a href="help.html">Help</a>
+        <button onclick="goBack()"> << </button>
+        <script>
+            function goBack() {
+                window.history.back()
+            }
+        </script>
+        <button><a href="menu.html"> Menu</a></button>
     </div>
-
     <head>
         <title>MusiMap</title>
         <meta charset="utf-8">
@@ -36,14 +36,8 @@
             </ul>
 
             <h4>Messages</h4>
-            <p>Philip Rivers says: Check out <a href="exampleArtist.html">this artist</a></p>
-
-            <h3>Local Events:</h3>
-            <ul>
-                <li>Insert External Link 1 Here</li>
-                <li>Insert External Link 2 Here</li>
-                <li>Insert External Link 3 Here</li>
-            </ul>
+            <p>Philip Rivers says: Check out <a href="artistscreen.html">this artist</a></p>
+           
         </div>
     </body>
 </html>

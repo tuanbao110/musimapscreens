@@ -1,15 +1,15 @@
 <!doctype html>
 
 <html>
-
     <!-- Side navigation -->
     <div class="sidenav">
-        <a href="search.html">Search</a>
-        <a href="index.html">Main Page</a>
-        <a href="library.html">My Library</a>
-        <a href="social.html">Social</a>
-        <a href="settings.html">Settings</a>
-        <a href="help.html">Help</a>
+        <button onclick="goBack()"> << </button>
+        <script>
+            function goBack() {
+                window.history.back()
+            }
+        </script>
+        <button><a href="menu.html"> Menu</a></button>
     </div>
 
     <head>
@@ -30,9 +30,9 @@
             <h4>My Artists</h4>
 
             <ul>
-                <li><a href="exampleArtist.html">Iron Maiden</a></li>
-                <li><a href="exampleArtist.html">Judas Priest</a></li>
-                <li><a href="exampleArtist.html">Black Sabbath</a></li>
+                <li><a href="artistscreen.html">Iron Maiden</a></li>
+                <li><a href="artistscreen.html">Judas Priest</a></li>
+                <li><a href="artistscreen.html">Black Sabbath</a></li>
             </ul>
            
         </div>

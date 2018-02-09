@@ -2,18 +2,19 @@
 
 <html>
 
-    <!-- Side navigation -->
+   <!-- Side navigation -->
     <div class="sidenav">
-        <a href="search.html">Search</a>
-        <a href="index.html">Main Page</a>
-        <a href="library.html">My Library</a>
-        <a href="social.html">Social</a>
-        <a href="settings.html">Settings</a>
-        <a href="help.html">Help</a>
+        <button onclick="goBack()"> << </button>
+        <script>
+            function goBack() {
+                window.history.back()
+            }
+        </script>
+        <button><a href="menu.html"> Menu</a></button>
     </div>
 
     <head>
-        <title>MusiMap</title>
+        <title>Artist</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/musimap.css" rel="stylesheet">

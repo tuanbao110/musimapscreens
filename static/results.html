@@ -4,12 +4,13 @@
 
     <!-- Side navigation -->
     <div class="sidenav">
-        <a href="search.html">Search</a>
-        <a href="index.html">Main Page</a>
-        <a href="library.html">My Library</a>
-        <a href="social.html">Social</a>
-        <a href="settings.html">Settings</a>
-        <a href="help.html">Help</a>
+        <button onclick="goBack()"> << </button>
+        <script>
+            function goBack() {
+                window.history.back()
+            }
+        </script>
+        <button><a href="menu.html"> Menu</a></button>
     </div>
 
     <head>
@@ -29,9 +30,9 @@
             
             <h3>Artists Found:</h3>
             <ul>
-                <li><a href="exampleArtist.html">Placeholder 1</a></li>
-                <li><a href="exampleArtist.html">Placeholder 2</a></li>
-                <li><a href="exampleArtist.html">Placeholder 3</a></li>
+                <li><a href="artistscreen.html">Placeholder 1</a></li>
+                <li><a href="artistscreen.html">Placeholder 2</a></li>
+                <li><a href="artistscreen.html">Placeholder 3</a></li>
         </div>
     </body>
 </html>
